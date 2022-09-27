@@ -34,10 +34,13 @@ class Die:
         
         self.value = random.randint(1,6)
         
+        # Player rolls 1, they score 100 points
         if self.value == 1:
             self.points = 100
+        # Player rolls 5, they score 50 points
         elif self.value == 5:
             self.points = 50
+        # Player does not roll 1's or 5's, Game Over
         else:
             self.points = 0
         
