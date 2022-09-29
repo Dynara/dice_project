@@ -84,21 +84,3 @@ class Director:
         self.is_playing == (self.score > 0)
 
 
-
-"""
-        if 1 or 5 not in values:
-            self.is_playing == False
-
-        
-        if die.value != 1 or 5:
-            self.is_playing == False
-        """
-
-"""
-    def check_for_game_over(self):
-
-        for i in range(len()):
-            if i != 1 or 5:
-                self.is_playing == False
-"""     
-
